@@ -1,30 +1,29 @@
 
     let array =  [1, 2, 1, 3, 4, 3, 5];
 
-    //let duplicate = []
+    let duplicates = []
 
-    // output  1, 3
+    //output  1, 3
 
-    //  filter() method or for loop
+    // filter() method or for loop
 
     // indexOf() method
 
 
     // imperative way of writing  code
 
-    //  for(var i =0; i < array.length; i++)
-    //  {
-    //      //console.log(array[i])
+     for(var i =0; i < array.length; i++)
+    {
+          //console.log(array[i])
 
-    //      if(array.indexOf(array[i]) != i)
-                                           
-    //      {
-    //              console.log(array[i])
-    //              duplicate.push(array[i])
-    //      }
+         if(array.indexOf(array[i]) != i)
+         {
+                 console.log(array[i])
+                 duplicates.push(array[i])
+          }
 
 
-    //  }
+     }
 
 
  // Declarative way of writing  code
